@@ -1,0 +1,28 @@
+.flexbox-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.height-small{
+    height: 75px;
+}
+.height-medium{
+    height: 500px;
+}
+.height-large{
+    height: 800px;
+}
+.padding-text-small{
+    padding: 0 30px;
+}
+.margin-text-small{
+    padding: 0 20px;
+}
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* border-radius: 20px; */
+    border:1px solid rgba(255, 255, 255, 0.096);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
