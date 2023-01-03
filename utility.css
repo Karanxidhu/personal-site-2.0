@@ -3,6 +3,11 @@
     justify-items: center;
     align-items: center;
 }
+.flexbox-inline-container{
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+}
 .height-small{
     height: 75px;
 }
@@ -10,7 +15,7 @@
     height: 500px;
 }
 .height-large{
-    height: 800px;
+    height: 860px;
 }
 .padding-text-small{
     padding: 0 30px;

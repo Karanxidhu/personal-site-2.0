@@ -10,8 +10,18 @@
   position: fixed;
   top: 0px;
   width: 100vw;
+  z-index: 5;
+}
+.profile{
+    height: 60px;
+    border-radius: 100%;
+    position: relative;
+    left: 50vw;
+    top:5px;
 }
 .navbar ul {
+    /* position: relative;
+    left: 1300px; */
   list-style: none;
 }
 .navbar a {
@@ -28,10 +38,10 @@ body {
   height: 300vh;
 }
 .middle-container {
-  border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid white; */
 }
 .name {
   font-family: "Poppins", sans-serif;
@@ -52,6 +62,7 @@ body {
     #001aff,
     #a200ff
     );
+    background-position: 300%;
     animation: border 12s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,4 +116,107 @@ body {
     50%{
         background-position: 300%; 
     }
+}
+.sp1{
+    position: absolute;
+    height: 300px;
+    z-index: -2;
+    right: 0px;
+    top: 10px;
+    opacity: 10%;
+}
+.sp2{
+    position: absolute;
+    height: 300px;
+    z-index: -2;
+    left: 0px;
+    top: 600px;
+    opacity: 10%;
+}
+
+hr{
+    margin: 50px auto;
+    border-style: dotted none none none;
+    height: 0;
+    border-width: 10px;
+    width: 10%;
+    color: rgba(255, 255, 255, 0.158);
+}
+
+.profile2{
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.prot{
+    margin-top: 100px;
+}
+
+.name-etc h1{
+    margin: 0 0 0 45%;
+    font-family: "poppins";
+    color: white;
+    font-size: 5rem;
+    text-align: left;
+}
+.name-etc p{
+    position: ;
+    color: white;
+    margin: 0 0 0 35%;
+    font-family: poppins;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.skills{
+    width: 50%;
+    margin: 150px auto;
+}
+.c-image{
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.skills h1{
+    margin: 0 0 0 40%;
+    font-family: "poppins";
+    color: white;
+    font-size: 5rem;
+    text-align: left;
+}
+.skills h2{
+    margin: 100px 0 20px 0px;
+    font-family: "poppins";
+    color: rgba(255, 255, 255, 0.438);
+    font-size: 2.5rem;
+    text-align: left;
+}
+.skills p{
+    color: white;
+    font-family: poppins;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.html-pic{
+    height: 200px;
+    position: relative;
+    float: right;
+    right: 100px;
+}
+.skill2{
+    margin-top: 150px;
+}
+.js-img{
+    float: left;
+    height: 200px;
+    position: relative;
+    right: 70px;
+}
+.js-text{
+    position: relative;
+    right: 100px;
+}
+.js{
+    margin-top: 150px;
 }
