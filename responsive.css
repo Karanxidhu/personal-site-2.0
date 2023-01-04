@@ -1,0 +1,9 @@
+@media screen and (max-width: 877px)    {
+    .profile{
+        left: 80vw;
+    }
+    .navbar a{
+        position: relative;
+        right: 15vw;
+    }
+}
