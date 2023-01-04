@@ -3,10 +3,16 @@
         left: 80vw;
     }
     .navbar a{
-        position: relative;
-        right: 15vw;
+        position: absolute;
     }
     .sp1{
         top: 25vh;
+    }
+    .contact{
+        left: 20vw;
+    }
+    .home{
+        position: absolute;
+        left: 0vw;
     }
 }
