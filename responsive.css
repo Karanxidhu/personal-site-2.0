@@ -36,7 +36,20 @@
         translate: 0vw 0;
     }
     50%{
-        translate: 90vw 0;
+        translate: 85vw 0;
     }
+}
+.footer-link{
+  flex-direction: column; 
+}
+.end{
+  height: 300px;
+}
+.circle, .circle1, .circle2{
+  margin: 150px 0;
+}
+.end a{
+  position: relative;
+  left: 40px;
 }
 }
