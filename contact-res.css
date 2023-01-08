@@ -1,0 +1,16 @@
+@media screen and (max-width: 1207px) {
+  .main-box{
+    flex-direction: column;
+  }
+  .github-con img{
+    height: 20vh;
+  }
+  .insta-con img{
+    height: 40vh;
+  }
+  .linked-con img{
+    height: 20vh;
+  }
+  
+  }
+  
