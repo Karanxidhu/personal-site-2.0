@@ -52,4 +52,7 @@
   position: relative;
   left: 40px;
 }
+.main-box{
+  flex-direction: column;
+}
 }
