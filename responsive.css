@@ -1,18 +1,30 @@
-@media screen and (max-width: 877px)    {
-    .profile{
-        left: 80vw;
-    }
-    .navbar a{
-        position: absolute;
-    }
-    .sp1{
-        top: 25vh;
-    }
-    .contact{
-        left: 20vw;
-    }
-    .home{
-        position: absolute;
-        left: 0vw;
-    }
+@media screen and (max-width: 877px) {
+  .profile {
+    left: 80vw;
+  }
+  .navbar a {
+    position: absolute;
+  }
+  .sp1 {
+    top: 25vh;
+  }
+  .contact {
+    left: 20vw;
+  }
+  .home {
+    position: absolute;
+    left: 0vw;
+  }
+  .skills, .skill1, .skill2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .js-text h2{
+    text-align: center;
+  }
+  .js-text p{
+    text-align: center;
+  }
 }
