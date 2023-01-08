@@ -323,3 +323,23 @@ hr{
         translate: 96vw 0;
     }
 }
+.main-box{
+    margin-top: 200px;
+    margin-bottom:77px;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 0 50px;
+}
+.main-box div{
+    margin: 0 auto;
+}
+.insta-con img{
+    height: 500px;
+}
+.linked-con img{
+    height: 220px;
+}
