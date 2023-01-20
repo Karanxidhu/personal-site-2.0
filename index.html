@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="utility.css" />
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link class="dark"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"
+    />
     <title>Karan✨Xidhu</title>
   </head>
-  <body>
+  <body class="back-dark">
     <header>
       <nav>
         <div class="navbar flexbox-container height-small glass">
@@ -26,9 +30,20 @@
               alt=""
             />
             <ul class="flexbox-container">
-              <li class="margin-text-small home"><a href="index">HOME</a></li>
-              <li><a href="contace.html" class="margin-text-small contact">CONTACT</a></li>
+              <li class="margin-text-small home"><a class="ul text-dark" href="index">HOME</a></li>
+              <li>
+                <a class="ul text-dark" href="contace.html" class="margin-text-small contact"
+                  >CONTACT</a
+                >
+              </li>
             </ul>
+            <span class="switch-container">
+              <button>
+                <span class="material-symbols-outlined switch">
+                  dark_mode
+                </span>
+              </button></span
+            >
           </div>
         </div>
       </nav>
@@ -40,7 +55,7 @@
         alt=""
       />
       <div class="middle-container flexbox-container height-large">
-        <div class="box">
+        <div class="box back-dark">
           <div class="name">KARAN</div>
         </div>
       </div>
@@ -60,14 +75,14 @@
         />
       </div>
       <div class="prot">
-        <div class="name-etc">
+        <div class="name-etc text-dark">
           <h1>HEY</h1>
           <p>
             I am Karan, a noob programmer. Currently focusing on
             <span>web dev</span>
           </p>
         </div>
-        <div class="skills">
+        <div class="skills text-dark">
           <div class="skill1">
             <hr />
             <h1>SKILLS</h1>
@@ -80,7 +95,7 @@
             <h2>HTML/CSS</h2>
             <p>Have a decent experience in web dev as well</p>
           </div>
-          <div class="js">
+          <div class="js text-dark">
             <img
               class="js-img"
               src="javascript-39395.png"
@@ -101,14 +116,32 @@
       <div class="circle2"></div>
       <div class="end glass flexbox-container">
         <ul class="footer-link flexbox-container">
-          <li><img src="github-mark-white.png" alt=""></li>
-          <li><a class="linkt" href="https://github.com/Karanxidhu">GITHUB</a></li>
-          <li><img src="—Pngtree—linked in icon design vector_4997511.png" alt=""></li>
-          <li><a class="linkt" href="https://www.linkedin.com/in/karanjot-singh-15022224b/">LINKED IN</a></li>
-          <li><img src="1-19750_instagram-png.png" alt=""></li>
-          <li><a class="linkt" href="https://www.instagram.com/karan.xidhu/">INSTAGRAM</a></li>
+          <li><img src="github-mark-white.png" alt="" /></li>
+          <li>
+            <a class="linkt text-dark" href="https://github.com/Karanxidhu">GITHUB</a>
+          </li>
+          <li>
+            <img
+              src="—Pngtree—linked in icon design vector_4997511.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <a
+              class="linkt text-dark"
+              href="https://www.linkedin.com/in/karanjot-singh-15022224b/"
+              >LINKED IN</a
+            >
+          </li>
+          <li><img src="1-19750_instagram-png.png" alt="" /></li>
+          <li>
+            <a class="linkt text-dark" href="https://www.instagram.com/karan.xidhu/"
+              >INSTAGRAM</a
+            >
+          </li>
         </ul>
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>

@@ -26,7 +26,6 @@
 }
 .navbar a {
   text-decoration: none;
-  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 1rem;
@@ -71,7 +70,7 @@ body {
 .box {
     position: relative;
     color: #fff;
-    background:  rgb(12, 12, 12);
+    /* background:  rgb(12, 12, 12); */
     font: 700 2rem "Montserrat";
     text-align: center;
     text-transform: uppercase;
@@ -155,12 +154,10 @@ hr{
 
 .name-etc h1{
     font-family: "poppins";
-    color: white;
     font-size: 5rem;
     text-align: center;
 }
 .name-etc p{
-    color: white;
     font-family: poppins;
     font-size: 1.2rem;
     text-align: center;
@@ -177,7 +174,6 @@ hr{
 }
 .skills h1{
     font-family: "poppins";
-    color: white;
     font-size: 5rem;
     text-align: center;
 }
@@ -189,7 +185,6 @@ hr{
     text-align: left;
 }
 .skills p{
-    color: white;
     font-family: poppins;
     font-size: 1.2rem;
     text-align: left;
@@ -202,7 +197,6 @@ hr{
     text-align: left;
 }
 .js-text p{
-    color: white;
     font-family: poppins;
     font-size: 1.2rem;
     text-align: left;
@@ -281,7 +275,6 @@ hr{
     font-family: poppins;
     font-weight: 600;
     font-size: 1rem;
-    color: white;
     margin: 0 80px 0 0;
 }
 .footer-link img{

@@ -1,6 +1,9 @@
 @media screen and (max-width: 877px) {
   .profile {
-    left: 80vw;
+    left: 60vw;
+  }
+  .switch{
+    left: 85vw;
   }
   .navbar a {
     position: absolute;
