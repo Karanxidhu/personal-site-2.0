@@ -5,8 +5,9 @@
   .switch{
     left: 85vw;
   }
-  .navbar a {
-    position: absolute;
+  .navbar {
+    /* position: absolute; */
+    padding: 0 30px;
   }
   .sp1 {
     top: 25vh;

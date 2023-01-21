@@ -16,6 +16,7 @@ function click(){
     document.getElementsByClassName("linkt")[2].classList.toggle("text-light")
     document.getElementsByClassName("linkt")[2].classList.toggle("text-dark")
 
+
     document.getElementsByClassName("box")[0].classList.toggle("back-light")
     document.getElementsByClassName("box")[0].classList.toggle("back-dark")
 
